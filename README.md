@@ -1,48 +1,54 @@
 Invento14
 ================
 
-This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
+Questa applicazione è stata creata usando [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
 provided by the [RailsApps Project](http://railsapps.github.io/).
 
-Rails Composer is open source and supported by subscribers. Please join RailsApps to support development of Rails Composer.
-
-Problems? Issues?
------------
-
-Need help? Ask on Stack Overflow with the tag 'railsapps.'
-
-Your application contains diagnostics in the README file. Please provide a copy of the README file when reporting any issues.
-
-If the application doesn’t work as expected, please [report an issue](https://github.com/RailsApps/rails_apps_composer/issues)
-and include the diagnostics.
+Questa applicazione permette di usare i palmari di ogni tipo ( o quasi) per  eseguire inventari di magazzino collegandosi al gestionale Business.Net ERP(http://www.ntsinformatica.it/)
 
 Ruby on Rails
 -------------
 
 This application requires:
 
+
 - Ruby 2.1.2
 - Rails 4.1.4
 
-Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
 
 Getting Started
 ---------------
+Si raccomanda che :
+- Installare l'applicazione su un server Linux o Windows correttamente configurato
+- Entrare nella cartella del progetto, e  lanciare dal prompt dei comandi
+	```
+	bundle 
+	```
+- Assicurarsi di modificare il file nella cartella config\database.yml 
+	con le impostazioni di connessione per il vostro database
+
+- Assicurarsi che il database di appoggio local.sql3 sia creato in db/local.sql3
+
+- Dal prompt dei comandi lanciare
+	```
+	rails s -e production
+	```
+- 
+
+
+
+
 
 Documentation and Support
 -------------------------
-
-Issues
--------------
-
-Similar Projects
-----------------
-
-Contributing
-------------
+- TODO
 
 Credits
 -------
+www.kleverbox.com
 
 License
--------
+------
+Invento14 is released under the MIT License(http://www.opensource.org/licenses/MIT).
+NO Warranty - Nessuna Garanzia
+
