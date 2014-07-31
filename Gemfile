@@ -24,3 +24,5 @@ end
 gem 'angularjs_scaffold'
 gem 'activerecord-sqlserver-adapter'
 gem 'ruby-odbc'
+gem 'configatron'
+gem 'humanize'
