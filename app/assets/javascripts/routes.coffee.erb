@@ -5,10 +5,7 @@ thisApp = angular.module("Invento14Client", ['ngCookies']).config(['$routeProvid
 ($routeProvider, $locationProvider) ->
   #$locationProvider.hashPrefix('');
   $locationProvider.html5Mode true
-  $routeProvider.when("/",
-    controller: "WelcomeCtrl"
-    templateUrl: "<%= asset_path('welcome/index.html') %>"
-  ).otherwise redirectTo: "/"
+  $routeProvider.otherwise redirectTo: "/"
 ])
 
 root.thisApp = thisApp
