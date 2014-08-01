@@ -18,5 +18,4 @@ class List < ActiveRecord::Base
     id = args[:list_id] || args[:id]
     where(tb_codlsar:id,codditt:args[:codditt]).first
   end
-
 end

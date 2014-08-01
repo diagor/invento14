@@ -26,3 +26,5 @@ gem 'activerecord-sqlserver-adapter'
 gem 'ruby-odbc'
 gem 'configatron'
 gem 'humanize'
+
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git', :branch=>'bootstrap3'
